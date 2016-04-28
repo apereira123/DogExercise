@@ -8,6 +8,7 @@ public class Kennel {
 		dog1 = new Dog("kip", 3);
 		dog2 = new Dog("jon", 4);
 		System.out.println(dog1);
+		System.out.println(dog1.getAge());
 		dog2.setName("something");
 		System.out.println(dog2);
 		dog2.setAge(2);
